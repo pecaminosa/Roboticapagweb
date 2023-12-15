@@ -1,0 +1,251 @@
+/* Estilos generales */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #3d27bb;
+  color: #000000;
+  margin: 5px;
+  padding: 5px;
+}
+
+header {
+  background-color: #1bb31b;
+  color: rgb(100, 36, 110);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(9, 24, 19);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  <center>
+}
+
+nav ul li a:hover {
+  color: #0059ff;
+}
+
+/* Estilos de las redes sociales */
+
+.redes-sociales {
+  margin-top: 10px;
+}
+
+.redes-sociales a {
+  color: #0e883c;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+body {
+  background-color: #0c0c0c;
+  animation: cambiacolordefondo linear 3;
+  animation-duration: 20s;
+}
+
+h1{
+  color:#00eeff;
+  text-align: center;
+  margin-top: 100px; 
+  animation: cambia_color_h1 linear 3;
+  animation-duration: 20s;   
+  
+}
+
+       
+/* Crear la nieve */
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #0f1110;
+  border-radius: 50%;
+  animation: snowfall linear infinite,
+             colordenieve 20s infinite;
+  transform-origin: center;
+  
+  
+}
+
+/* Animación de caída de nieve */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(120px) rotate(360deg);
+  }
+}
+
+/* Animación de cambio de color de la pagina */
+@keyframes cambiacolordefondo {
+  0%{
+      background-color: rgb(8, 8, 138);
+  }
+
+  25%{
+      background-color: aqua;
+  }
+
+  50%{
+      background-color: purple;
+  }
+
+  75%{
+      background-color: chartreuse;
+  }
+
+  100%{
+      background-color: rgb(12, 3, 49);
+  }
+  
+}
+
+@keyframes cambia_color_h1 {
+ 0%{
+      color: rgb(255, 204, 0);
+  }
+
+  25%{
+      color: purple;
+  }
+
+  50%{
+      color: chartreuse;
+  }
+
+  75%{
+      color: rgb(12, 3, 49);
+  }
+
+  100%{
+      color: rgb(138, 49, 8);
+  }
+  
+}
+
+@keyframes colordenieve {
+  
+  0%{
+      background-color: rgb(255, 94, 0);
+  }
+  
+  25%{
+      background-color: rgb(145, 32, 32);
+  }
+
+  50%{
+      background-color: rgb(230, 144, 159);
+  }
+
+  75%{
+      background-color: olivedrab;
+  }
+
+  100%{
+      background-color: rgb(123, 8, 138);
+  }
+}
+
+body{
+  background-color: rgb(2, 41, 41);
+  color:rgb(46, 118, 180);
+}
+
+h1{
+  text-align: center;
+  color:rgb(21, 145, 17);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+  /*Centrar el formulario*/
+  margin: 0 auto;
+  width: 440px;
+  padding: 10px;
+  border: 2px solid gold;
+  border-radius: 12px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li, button {
+  margin-top: 10px;
+}
+
+label{
+  /*Tamaño y alineación*/
+   display: inline-block;
+   width: 120px;
+   text-align: right;
+}
+
+input, textarea{
+  font: 1em sans-serif;
+  width:300px;
+  box-sizing: border-box;
+  border: 1px solid chartreuse;
+}
+
+input:focus, textarea:focus{
+  /*Destacado adicional para elementos que tienen el cursor*/
+  background-color: rgb(2, 41, 41);
+  color:yellow;
+}
+
+.boton{
+  margin-left: 200px;
+  max-width: 144px;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #000;
+  color: lightgreen;
+  transition: 1s;
+}
+
+.Carrera{
+  margin:10px; 
+  padding: 10px;
+}
+
+#select{
+  margin:10px; 
+  padding: 10px;
+}
+
+/* estilo de letra */
+.menu a {
+  font-size: 20px; /* Tamaño de letra general para todos los elementos del menú */
+}
+.menu a:nth-child(1) {
+   font-size: 50px; 
+}
+
+.menu a:nth-child(2) {
+  font-size: 30px; 
+}
+.menu a:nth-child(3) {
+  font-size: 30px; 
+
+.menu a:nth-child(4) {
+  font-size: 30px; 
+}
+.menu a:nth-child(5) {
+ font-size: 30px; 
